@@ -1,6 +1,12 @@
-# angular-6-registration-login-example-cli
+## Software Requirements To Run Locally
 
-Angular 6 - User Registration and Login Example with Angular CLI
+* Node.js 8.11.3 or higher
+https://nodejs.org/en/download/
 
-To see a demo and further details go to http://jasonwatmore.com/post/2018/05/16/angular-6-user-registration-and-login-example-tutorial
+### Running the Application Locally
 
+1. Install Angular CLI: `npm install -g @angular/cli`
+
+2. Run `npm install` to install app dependencies (make sure to run this in the folder where the package.json file lives)
+
+3. Open url localhost:4200 in browser

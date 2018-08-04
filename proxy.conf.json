@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+    "target": "http://54.175.208.166:8083/dhc/api/v1",
+    "secure": false,
+    "pathRewrite": {"^/api" : ""}
+  }
+}

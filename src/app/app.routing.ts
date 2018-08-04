@@ -2,14 +2,14 @@
 
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
-import { RegisterComponent } from './register';
 import { AuthGuard } from './_guards';
+import { UserComponent } from './user/user.component';
 
 const appRoutes: Routes = [
-    { path: '', component: HomeComponent, canActivate: [AuthGuard] },
+    { path: 'user', component: UserComponent},
+    { path: 'home', component: HomeComponent},
     { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent },
-
+    { path: '', component: HomeComponent, canActivate: [AuthGuard] },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
